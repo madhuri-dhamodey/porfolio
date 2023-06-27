@@ -34,7 +34,7 @@
 1. Clone the project, then `cd` into it
 
 ```
-git clone https://github.com/madhuri-dhamodey/madhuri-dhamodey.tech && cd madhuri-dhamodey.tech
+git clone https://github.com/madhuri-dhamodey/porfolio.git && cd portfolio
 ```
 
 2. Install all the dependencies
