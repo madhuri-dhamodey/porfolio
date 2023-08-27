@@ -14,12 +14,12 @@ const Knowledge = () => {
         })}
       >
         {[
+          'React Native',
           'Java',
           'Spring Boot',
           'MySQL',
           'HTML',
           'CSS',
-          'React Native',
           'JavaScript ',
           'Git',
           'REST APIs',
