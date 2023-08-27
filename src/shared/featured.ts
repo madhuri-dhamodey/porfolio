@@ -1,4 +1,4 @@
-import { shopping, corpus, blogger, ems } from '@static/images';
+import { shopping, corpus, blogger, ems, noetic } from '@static/images';
 
 export const featured: {
   id: string;
@@ -10,17 +10,34 @@ export const featured: {
   live?: string;
   image?: string;
 }[] = [
-    {
+{
       id: 'sde',
-      name: 'SDE@Corpusvision Pvt Ltd ',
+      name: 'Junior Software Engineer @ Noetic IT Services',
       date: "(06/2020 - 12/2020)",
       info: `<React.Fragment>
     <ul type="disc">
-    Engaged as a freelance professional, undertaking diverse projects such as Apnatok, ChaiWala, and others.
+    Engaged as a full-time professional, undertaking diverse projects such as Apnatok, ChaiWala, and others.
   <br><strong><u><center>Achievements/Tasks</center></u></strong>
-  <li>•Worked on Apnatok It's an ultimate app for unleashing your creativity and connecting with a global community. With ApnaTok, you can create and share short, captivating videos that showcase your talents, unique perspective, and vibrant personality.</li>
-  <li>•By implementing Mobx-State-Tree, we ensured a streamlined flow of data, enabling enhanced performance and maintainability.</strong></li>
+  <li>•Took complete ownership of developing <strong>Apnatok</strong> it is a social media app. Designed various components to enhance the UI/UX of the application..</li>
+  <li>•Implemented Mobx State Tree to ensured a streamlined flow of data, enabling enhanced performance and maintainability; reducing their <strong>load time by 37%</strong> and increasing <strong>user engagement rates by 25%</strong>.</li>
   <li>•We used React Navigation as a standalone library to facilitate seamless navigation within our application.</li>
+  </ul>
+<React.Fragment>`,
+
+      stack: ['React Native', 'Redux', 'Mobx', 'HTML', 'CSS', 'JavaScript'],
+      code: '',
+      live: 'https://www.noeticitservices.com/',
+      image: noetic,
+    },
+    {
+      id: 'sde',
+      name: 'React Native Developer @ Corpusvision Pvt Ltd ',
+      date: "(06/2020 - 12/2020)",
+      info: `<React.Fragment>
+    <ul type="disc">
+  <br><strong><u><center>Achievements/Tasks</center></u></strong>
+  <li>•Refactored existing React Native codebase to enhance stability, reduce memory consumption and improve the overall user experience; increased mobile app performance by <strong>40% in 3 months.</strong></li>
+  <li>•Structured reusable UI components based on custom design specifications in order to optimize coding efficiency and maintain high-quality standards throughout the project duration; <strong>reduced bug count by 20%.</strong></li>
   </ul>
 <React.Fragment>`,
 
@@ -31,7 +48,7 @@ export const featured: {
     },
     {
       id: 'ems',
-      name: 'Software Developer Intern@Engineer Master Solution Pvt Ltd',
+      name: 'Software Developer Intern @ Engineer Master Solution Pvt Ltd',
       date: "(06/2019 - 07/2019)",
       info: `<React.Fragment>
       <ul type="disc">
